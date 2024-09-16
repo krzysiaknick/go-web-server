@@ -1,5 +1,5 @@
 # go-web-server
 
-# Nicholas Krzysiak
+## Nicholas Krzysiak
 
-# Credit ChatGPT
+## Credit ChatGPT
