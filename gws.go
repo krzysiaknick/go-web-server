@@ -12,6 +12,7 @@ func main() {
 	http.HandleFunc("/hello-world-html", helloWorldHtmlHandler)
 	http.HandleFunc("/hello-world-json", helloWorldJSONHandler)
 	http.HandleFunc("/syllabus", syllabusHandler)
+	http.HandleFunc("/d6", d6)
 
 	// Define the port to listen on
 	port := ":8080"
@@ -33,12 +34,12 @@ func main() {
 		if input == "help" {
 			displayHelp()
 
-		} else {
-			fmt.Println("Invalid input. Please type 'help'.")
-		}
+		} 
 	}
 
 }
+
+
 
 func displayHelp() {
 	fmt.Println("Go Web Server Help:")
